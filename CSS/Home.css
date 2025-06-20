@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+
+
+}
+
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #d6c499;
+}
+/* --------------------------------------------header-------------------------------------------------- */
+
+.home-h1    {
+    margin-left:40px ;
+}
+#h1
+{
+    font-size: 3rem;
+    color: orange;
+}
+
+#cod{
+    margin-left: 85px;
+    color: green;
+}      
+
+.home-back{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+}
+/* ------------------------------------------------ */
+.category{
+    margin-left: 20px;
+    margin-top: 1rem;
+}
+.cat-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 270px;
+}
+
+
+
+.cat-box a{
+    height: 220px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 3%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+
+#img1
+{
+    
+    background-image: url('CATEGORY/SC_8.jpeg');
+    background-size: cover;
+}
+
+#img2
+{
+    background-image: url('CATEGORY/G_5.jpg');
+    background-size: cover;
+}
+#img3
+{
+    background-image: url('CATEGORY/CD_4.1.JPG');
+    background-size: cover;
+}
+.cat_name{
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 230px;
+    color:#87563b;
+}
+.cat-box a:hover{
+    border: 2px solid #ffb700;
+}
+
+.cat_name:hover{
+    font-weight: bold;
+}
+
+.click-here{
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: 65rem;
+ }
+ 
+ #click-here{
+     text-decoration: none;
+     color:green;
+ }
+ #click-here:hover{
+     text-decoration: underline;
+ }
+
+/* --------------------footer--------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.site-footer {
+  background-color: #ffb700;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  margin-top:5px;
+  width:100%;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.footer-links ul li a:hover {
+  color: #ffd700; 
+}
+

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    background-color:antiquewhite;
+}
+#navbar{
+    width: 100%;
+    
+}
+header {
+    text-align: center;
+    color: #e68a00;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+}
+
+.contact-box {
+    background-color: #4caf50;
+    width: 22%;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+
+
+}
+H1{
+    padding-top: 20PX;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.contact-box:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.contact-button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.con-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-button:hover {
+    background-color: #e68a00;
+    justify-content: center ;
+}
+
+.feedback-form {
+    display: none;
+    padding: 20px;
+    background-color: #4caf50;
+    color: #fff;
+}
+
+
+
+.feedback-form form button {
+    text-align: center;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form form button:hover {
+    background-color: #e68a00;
+    
+}

@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+}
+  @media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+.header{
+      position: fixed;
+      top:0;
+      left: 0;
+      width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 10px;      
+      padding-bottom: 10px;
+      background: #ffb700;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 100;
+    }
+
+  .navbar a {
+      position: relative;
+      font-size: 18px;
+      color: #fff;
+      font-weight:500;
+      text-decoration:none ;
+      margin-left: 40px;
+      }
+      
+      .navbar a:hover{
+          text-decoration: underline;
+      }
+      
+      .navbar{
+          margin-right: 1.8rem;
+      }
+
+      .logo1{
+          padding-top:11px;
+          padding-left: 30px;
+          height: 70px;
+          width: 150px;
+          color:green;
+       }
+       .logo-1{ 
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+      } 
+
+      #heading{
+        text-align: center;
+        color: #a5be00;
+       
+      }
+
+
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+
+  div.gallery {
+    gap: 25px;
+    border: 1px solid #ccc;
+    margin: o 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0 , 0 ,.1);
+    border-radius: 15px;
+    }
+
+  div.gallery:hover {
+    border: 1px solid #777;
+    transform: scale(1.1);
+    z-index: 2;
+    
+    }
+
+  div.gallery img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    
+    }
+
+    div.gallery img:hover{
+      
+      border-radius:15px;
+
+    }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    }
+
+  * {
+    box-sizing: border-box;
+    }
+
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    }
+   .section{
+
+        height: 275px;
+    }
+
