@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/Home_Essential.css">
+        <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+        <title>Fruit Section</title>
+    </head>
+    <body>
+        <header id="navbar">
+            <iframe src="navbar.html" frameborder="0" width="100%" height="80px" ></iframe>
+        </header>
+        <div class="header">
+            <p class="logo">S<span style="font-size: 40px; color: white;">2</span>D</p>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+        <h2 class="y-f">Your <span>HOME ESSENTIALS</span></h2>
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>My Cart</p></div>
+                <div id="cartItem">Your cart is empty</div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">Rs 0.00</h2>
+                </div>
+                <div class="Place-order">
+                    <button id="Place-order" onclick=showPlaced()>Place Order</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="JS/Home_Essential.js"></script>
+    </body>
+</html>

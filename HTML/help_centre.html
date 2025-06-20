@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+BODY{
+    background-color: burlywood;
+}
+        
+        .faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    background:WHITE;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.2s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    background-color: rgb(195, 135, 56);
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s, padding 0.2s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.faq.email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small{
+    font-size: 13px;
+}
+    </STYLE>
+</head>
+<body>
+    
+
+
+<div class="faq">
+    <h2>Help Centre</h2>
+    <ul class="accordion">
+        <li>
+            <input type="radio" name="accordion" id="first">
+            <label for="first">FAQ (Frequently Asked Questions)</label>
+            <div class="content">
+                <p>Find answers to commonly asked questions about our grocery delivery service.</p>
+            </div>
+        </li>
+        <li>
+            <input type="radio" name="accordion" id="second">
+            <label for="second">Contact Us</label>
+            <div class="content">
+                <p>If you couldn't find the answer to your question in our FAQ section, please feel free to contact us: <a href="contact.html">Here</a></p>
+            </div>
+         
+    </ul>
+</body>
+</html>

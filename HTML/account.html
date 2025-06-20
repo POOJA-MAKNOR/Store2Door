@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="account.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <header id="navbar">
+        <iframe src="navbar.html" frameborder="0" width="100%" height="80px" ></iframe>
+    </header>
+    <pre>
+
+    </pre>
+    <h1 id="page-heading">Welcome to Store<span style="font-size: 40px">2</span>Door !!!!</h1>
+    <pre>
+
+    </pre>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form action="connectivity.php" method="post">
+                <h1 id="sign-in-heading">Sign In</h1>
+                <pre>
+
+                </pre>
+                <input type="text"  name="username" placeholder="username">
+                <input type="password" name="password" placeholder="Password">
+                
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form action="connectivity2.php" method="post">
+                <h1 id="sign-up-heading">Create Account</h1>
+                <pre>
+                    
+                </pre>
+                <input type="text" name="Name" placeholder="Full Name">
+                <input type="text" name="mob"   placeholder="Mobile No.">
+                <input type="text"name="address" placeholder="Address">
+                <input type="text" name="pinCode" placeholder="PinCode">
+                <input type="text" name="username" placeholder="username">
+                <input type="password" name="password" placeholder="Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome,customer!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign Up</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign In</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="account.js"></script>
+</body>
+
+</html>
