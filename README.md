@@ -1,0 +1,1 @@
+The objective of this project is A Grocery Home Delivery which provides a convenient and efficient shopping experienceforcustomers by offering a comprehensive range of products and optimize the online grocery shoppingprocess,fostering customer satisfaction and loyalty through a reliable and responsive web application.
